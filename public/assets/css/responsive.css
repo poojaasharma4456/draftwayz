@@ -1,0 +1,933 @@
+@media screen and (max-width:1400px) {
+    .home-banner {
+        height: 550px;
+    }
+
+}
+
+
+@media screen and (max-width:1200px) {
+    .website-info-section .website-info-text p {
+        max-width: 400px;
+    }
+
+    .play-guide-heading {
+        padding: 20px;
+    }
+
+    .games .section-heading {
+        font-size: 40px;
+        color: #ffb933;
+        margin: 0 auto;
+    }
+    .main-menu ul li a {
+        font-size: 16px;
+    }
+    .avatar-content {
+        gap: 7px;
+    }
+    .avatar-content a span {
+        font-size: 15px;
+    }
+    .main-menu {
+        /* width: 70%; */
+    }
+}
+
+@media screen and (max-width:991px) {
+    .main-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        padding: 50px;
+        background: linear-gradient(90deg, #5de0e6, #004aad);
+        transform: translateX(-100%);
+        transition: all 0.3s linear;
+        z-index: 100;
+        color: #fff;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .menuToggle .main-menu {
+        transform: translateX(0);
+        justify-content: flex-start;
+    }
+
+    .main-menu ul {
+        flex-direction: column;
+
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .close-icon {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        display: block;
+        text-align: end;
+        z-index: 55;
+        font-size: 21px;
+        height: 20px;
+        width: 20px;
+    }
+
+    .close-icon img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .hdr-login {
+        margin-right: 0px; 
+        margin-bottom: 8px;
+    }
+
+    .home-banner {
+        padding: 150px 90px;
+        height: 480px;
+    }
+
+    .banner-butns {
+        gap: 25px;
+        margin-top: 50px;
+    }
+
+    .website-info-text p,
+    .website-info-section .website-info-text p {
+        font-size: 21px;
+    }
+
+    .website-info-section .website-info-text p {
+        max-width: 320px;
+    }
+
+    .website-info-text {
+        padding: 20px 0;
+    }
+
+    .section-heading {
+        font-size: 45px;
+    }
+
+    .why-us-section .website-info-text {
+        padding: 15px;
+    }
+
+    .featured-cards {
+        width: 47%;
+        margin-bottom: 45px;
+    }
+
+    .pt-10 {
+        padding-top: 80px;
+    }
+
+    .featured-cards-content h3 {
+        font-size: 19px;
+    }
+
+    .featured-cards-image {
+        height: 250px;
+    }
+
+    .disclaimer p {
+        font-size: 15px;
+    }
+    .website-info-section .website-info-text {
+        padding: 70px 0;
+    }
+
+    .copyright p {
+        font-size: 13px;
+    }
+
+    .footer-links {
+        padding-left: 30px;
+    }
+
+    .play-guide-image img {
+        height: 330px;
+    }
+
+    .start-join-wrapper .play-cards,
+    .trade-wrapper .play-cards,
+    .draft-team-wrapper .play-cards,
+    .lineup-wrapper .play-cards,
+    .scoring-wrapper .play-cards {
+        width: 48%;
+    }
+
+    .draft-team-wrapper .play-cards:last-child,
+    .lineup-wrapper .play-cards:last-child,
+    .scoring-wrapper .play-cards:last-child {
+        margin: auto;
+    }
+
+    .py-7 {
+        padding: 50px 0;
+    }
+
+    .games .section-heading {
+        font-size: 30px;
+    }
+
+    .play-guide-heading p {
+        font-size: 24px;
+    }
+
+    .pages-group p,
+    .others .pages-intro-section p {
+        font-size: 19px;
+    }
+
+    .contact-group {
+        max-width: 100%;
+    }
+
+    .contact-right,
+    .contact-left {
+        width: 48%;
+    }
+
+    .pages-group h3 {
+        font-size: 28px;
+    }
+
+    .pages-image,
+    .pages-text {
+        width: 100%;
+    }
+
+    .pages-image {
+        height: 340px;
+    }
+
+    .pages-text {
+        padding: 20px 10px;
+    }
+
+    .sub-pages-text-group p {
+        font-size: 18px;
+    }
+
+    .sub-pages-text-group h3 {
+        font-size: 28px;
+    }
+    .row .mb-3.col-sm-6 {
+        width: 100%;
+        margin: 0 auto;
+    }
+    span.edit_pan {
+        top: 55%;
+    }
+    .play-guide-heading {
+        gap: 25px;
+    }
+    .play-guide-heading {
+        max-width: 655px;
+    }
+    .toggle-target a {
+        width: auto;
+    }
+    .toggle-target{
+        justify-content: flex-start; 
+        flex-wrap: nowrap; 
+        overflow-x: auto; 
+        white-space: nowrap;  
+    }
+    .toggle-target a {
+        flex: 0 0 auto; 
+        margin-right: 10px;
+    }
+    .toggle-target a {
+        width: 20%;
+    }
+}
+
+
+
+
+@media screen and (max-width:767px) {
+    .logo img {
+        max-width: 240px;
+    }
+
+    .menu-icon {
+        height: 20px;
+        width: 25px;
+    }
+
+    .banner-text h1 {
+        font-size: 50px;
+    }
+
+    .home-banner {
+        padding: 150px 50px;
+        height: 450px;
+    }
+
+    .banner-butns {
+        gap: 20px;
+        margin-top: 45px;
+    }
+
+    .banner-btn {
+        padding: 14px 35px;
+    }
+
+    .website-info-image,
+    .website-info-text {
+        width: 100%;
+    }
+
+    .why-us-section {
+        margin-top: 30px;
+    }
+
+    .website-info-section .website-info-text p {
+        max-width: 540px;
+    }
+
+    .why-us-section .website-info-wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .section-heading {
+        font-size: 40px;
+    }
+
+    .website-info-text h3 {
+        font-size: 23px;
+    }
+
+    .pt-10 {
+        padding-top: 70px;
+    }
+
+    .featured-cards-content h3 {
+        font-size: 18px;
+    }
+
+    .featured-cards-content p {
+        font-size: 16px;
+    }
+
+    .featured-cards-image {
+        height: 230px;
+    }
+
+    .footer-logo {
+        text-align: left;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .footer-links,
+    .footer-quick-links {
+        width: 50%;
+    }
+
+    .social-icons {
+        justify-content: flex-start;
+    }
+
+    .footer-links {
+        padding-left: 10px;
+    }
+
+    .play-guide-image img {
+        height: 300px;
+    }
+
+    .play-cards p {
+        font-size: 15px;
+    }
+
+    .play-cards h3 {
+        font-size: 24px;
+    }
+
+    .play-guide-image,
+    .play-guide-heading {
+        width: 100%;
+    }
+
+    .play-icons {
+        max-width: 70px;
+        max-height: 70px;
+    }
+
+    .play-guide-heading {
+        padding: 20px 0;
+    }
+
+    .play-guide-heading-image {
+        text-align: center;
+    }
+
+    .start-join-wrapper .play-cards,
+    .trade-wrapper .play-cards,
+    .draft-team-wrapper .play-cards,
+    .lineup-wrapper .play-cards,
+    .scoring-wrapper .play-cards {
+        width: 45%;
+    }
+
+    .play-guide-heading p {
+        font-size: 22px;
+        margin: 0 auto;
+    }
+
+    .pages-group p,
+    .others .pages-intro-section p {
+        font-size: 18px;
+    }
+
+    .form-wrapper input,
+    .form-wrapper textarea {
+        max-width: 80%
+    }
+
+    .formbold-btn {
+        padding: 14px 40px;
+    }
+
+    .pages-group h3 {
+        font-size: 26px;
+    }
+
+    .pages-image {
+        height: 300px;
+    }
+
+    .sub-pages-text-group p {
+        font-size: 17px;
+    }
+
+    .sub-pages-text-group h3 {
+        font-size: 26px;
+    }
+    .form-image,.form-wrapper {
+        width: 100%;
+    }
+    .profile-side ,.col-sec {
+        width: 100%;
+    }
+    .row .mb-3.col-sm-6 {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .play-guide-heading {
+        flex-direction: column;
+        gap: 25px;
+    }
+    .toggle-target {
+        padding: 10px;
+    }
+
+    .toggle-target a {
+        padding: 8px 15px; 
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width:575px) {
+
+    .logo img {
+        max-width: 220px;
+    }
+
+    .banner-text h1 {
+        font-size: 42px;
+        max-width: 400px;
+    }
+
+    .home-banner {
+        padding: 140px 15px;
+        height: 390px;
+    }
+
+    .banner-butns {
+        gap: 15px;
+        margin-top: 35px;
+    }
+
+    .banner-btn {
+        padding: 13px 30px;
+        font-size: 16px;
+    }
+
+    .website-info-text p {
+        font-size: 20px;
+    }
+
+    .section-heading {
+        font-size: 35px;
+    }
+
+    .website-info-text p,
+    .website-info-section .website-info-text p {
+        font-size: 20px;
+    }
+
+    .website-info-text h3 {
+        font-size: 21px;
+    }
+
+    .featured-cards {
+        width: 100%;
+    }
+
+    .pt-10 {
+        padding-top: 60px;
+    }
+
+    .featured-cards-content h3 {
+        font-size: 17px;
+    }
+
+    .featured-cards-image {
+        height: 210px;
+    }
+
+    .pt-5 {
+        padding-top: 40px;
+    }
+
+    .disclaimer p {
+        font-size: 14px;
+    }
+
+    .copyright p {
+        font-size: 12px;
+    }
+
+    .play-guide-image,
+    .play-guide-heading {
+        width: 100%;
+    }
+
+    .play-guide-image img {
+        height: 250px;
+    }
+
+    .play-cards {
+        width: 100%;
+    }
+    .games .section-heading {
+        font-size: 19px;
+    }
+
+    .start-join-wrapper .play-cards,
+    .trade-wrapper .play-cards,
+    .draft-team-wrapper .play-cards,
+    .lineup-wrapper .play-cards,
+    .scoring-wrapper .play-cards {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .play-cards p {
+        font-size: 14px;
+    }
+
+    .play-cards h3 {
+        font-size: 22px;
+    }
+
+    .play-guide-heading {
+        padding: 20px 0;
+    }
+
+    .py-7 {
+        padding: 40px 0;
+    }
+
+    .play-guide-heading p {
+        font-size: 20px;
+    }
+
+    .pages-group p,
+    .others .pages-intro-section p {
+        font-size: 17px;
+    }
+
+    .contact-right,
+    .contact-left {
+        width: 100%;
+    }
+
+    .contact-left {
+        margin-bottom: 35px;
+    }
+
+    .contact-group {
+        margin: 0px auto 30px auto;
+    }
+
+    .contact-right,
+    .contact-left {
+        margin: 30px auto 0 auto;
+    }
+
+    .form-wrapper input,
+    .form-wrapper textarea,
+    .form-wrapper button {
+        font-size: 15px;
+    }
+
+    .form-wrapper input,
+    .form-wrapper textarea {
+        max-width: 80%
+    }
+
+    .formbold-btn {
+        padding: 13px 40px;
+    }
+
+    .section-heading {
+        font-size: 35px;
+    }
+
+    .pages-text {
+        padding: 20px 0;
+    }
+
+    .pages-group h3 {
+        font-size: 24px;
+    }
+
+    .pages-image {
+        height: 260px;
+    }
+
+    .sub-pages-text-group p {
+        font-size: 16px;
+    }
+
+    .sub-pages-text-group h3 {
+        font-size: 24px;
+    }
+    .leagues-inner h2 {
+        font-size: 30px;
+    }
+    .leagues-table td h6  {
+        font-size: 14px;
+    }
+    .leagues-table td p{
+        font-size: 13px;
+    }
+    td.match-team-logo h6 {
+        font-size: 15px !important;
+    }
+    .player-headr .team-logo span {
+        font-size: 20px;
+    }
+    .c-logo {
+        font-size: 16px;
+    }
+    .mmy-profile-inner {
+        flex-direction: column;
+    }
+
+    .user-content-update {
+        margin-left: 0px; 
+        padding:20px 10px;
+        margin-bottom:30px;
+    }
+    .content-bar span {
+        font-size: 16px;
+    }
+    .row .mb-3.col-sm-6 {
+        width: 90%;
+        margin: 0 auto;
+    }
+    span.edit_pan {
+        top: 60%;
+    }
+    .featured-cards-content p {
+        max-width: 400px;
+    }
+      .toggle-target a {
+        width: 35%;
+    }
+    .modal-image img {
+        max-height: 65px;
+        max-width: 65px;
+    }
+    .close-button {
+        width: 1.1rem;
+    }
+    .modal-content p {
+        font-size: 16px;
+    }
+    .ok-button {
+        padding: 11px 25px;
+        font-size: 15px;
+    }
+    .close-button {
+        top: 15px;
+        right: 14px;
+    }
+    .avatar-content img {
+        width: 40px;
+    }
+    .avatar-content a span {
+        font-size: 16px;
+    }
+    .dropdown-arrow {
+        height: 20px !important;
+        width: 20px !important;
+    }
+    .profile-side {
+        height: auto;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .logo img {
+        max-width: 180px;
+    }
+    .logo {
+        width: 50%;
+    }
+
+    .banner-text h1 {
+        font-size: 28px;
+        max-width: 300px;
+    }
+
+    .banner-btn {
+        padding: 12px 25px;
+        font-size: 15px;
+    }
+
+    .home-banner {
+        height: 320px;
+    }
+
+    .home-banner {
+        padding: 110px 15px 100px;
+    }
+
+    .website-info-text p,
+    .website-info-section .website-info-text p {
+        font-size: 18px;
+    }
+
+    .website-info-image {
+        height: 220px;
+    }
+
+    .section-heading {
+        font-size: 30px;
+    }
+
+    .website-info-text h3 {
+        font-size: 19px;
+    }
+
+    .featured-cards-content h3 {
+        font-size: 16px;
+    }
+
+    .featured-cards-image {
+        height: 190px;
+    }
+
+    .featured-cards {
+        padding: 15px;
+    }
+
+    .footer-items h3 {
+        font-size: 23px;
+    }
+
+    .footer-items {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .footer-items:last-child {
+        margin-bottom: 0;
+    }
+
+    .play-guide-image img {
+        height: 190px;
+    }
+
+    .play-cards h3 {
+        font-size: 20px;
+    }
+
+    .py-7 {
+        padding: 30px 0;
+    }
+
+    .play-icons {
+        max-width: 60px;
+        max-height: 60px;
+    }
+
+    .play-guide-heading p {
+        font-size: 18px;
+    }
+
+    .pages-group p,
+    .others .pages-intro-section p {
+        font-size: 16px;
+    }
+
+    .pages-group {
+        padding: 15px;
+    }
+
+    .pages-group h3 {
+        margin: 15px 0;
+        font-size: 22px;
+    }
+
+    .form-wrapper input,
+    .form-wrapper textarea,
+    .form-wrapper button {
+        font-size: 14px;
+    }
+
+    .form-wrapper input,
+    .form-wrapper textarea {
+        max-width: 90%
+    }
+
+    .pb-3 {
+        padding-bottom: 20px;
+    }
+
+    .pages-image {
+        height: 220px;
+    }
+
+    .sub-pages-text-group p {
+        font-size: 15px;
+    }
+
+    .sub-pages-text-group h3 {
+        font-size: 22px;
+    }
+    .sub-pages-text-group {
+        padding: 10px;
+    }
+    form.contact-form {
+        padding: 30px 0px;
+    }
+    .leagues-inner h2 {
+        font-size: 26px;
+    }
+    .leagues-table td {
+        padding: 20px 5px 20px 10px !important;
+    }
+    .leagues-table td h6  {
+        font-size: 13px;
+    }
+    .leagues-table td p{
+        font-size: 12px;
+    }
+    td.match-team-logo h6 {
+        font-size: 14px !important;
+    }
+    .team_inner {
+        flex-direction: column;
+    }
+    .player-headr .team-logo h6 {
+        text-align: center;
+        font-size: 13px;
+    }
+    .player-headr .team-logo:last-child .team_inner {
+        flex-direction: column-reverse;
+    }
+    .player-headr .team-logo span {
+        margin-bottom: 7px;
+    }
+    .matches-table .player-name {
+        text-align: left;
+    }
+    .team-view-header {
+        padding: 20px 7px;
+    }
+    .team-view-header h4 {
+        font-size: 16px;
+        max-width: 280px;
+    }
+    .c-logo {
+        width: 30px;
+        font-size: 14px;
+        height: 30px;
+    }
+    .c-details h6 {
+        font-size: 14px;
+    }
+    .c-details p {
+        font-size: 12px;
+    }
+    td.player-dp img {
+        width: 35px;
+        height: 35px;
+    }
+    .team-view-table table tr td:nth-child(2) {
+        text-align: left;
+    }
+    .leagues .matches-table tbody tr td:first-child {
+        width: 190px;
+        padding: 20px;
+    }
+    .content-bar span {
+        font-size: 15px;
+    }
+    .row .mb-3.col-sm-6 {
+        width: 100%;
+    }
+    .toggle-target {
+        padding: 15px 20px;
+    }
+    .player-headr .match-details p {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+    .player-headr .team-logo img {
+        width: 70px;
+    }
+    .avatar-content img {
+        width: 35px;
+        height: 35px;
+    }
+    .avatar-content a span {
+        font-size: 13px;
+    }
+    .avatar-content {
+        gap: 6px;
+        margin: 0 10px;
+    }
+    .dropdown-arrow {
+        height: 16px !important;
+        width: 16px !important;
+    }
+    .avatar-content {
+        gap: 6px;
+        margin: auto 10px;
+    }
+
+}
+@media screen and (max-width:410px){
+    .avatar-content {
+        gap: 3px;
+    }
+    .profile {
+        margin-right: 5px;
+    }
+}
